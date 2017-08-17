@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 h1 {
   margin: 10px 0px 0px;
   float: none;
@@ -19,6 +21,17 @@ h2 {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+
+h3 {
+  margin: -10px 0px 40px;
+  font-family: 'Varela Round', sans-serif;
+  color: #667073;
+  font-size: 17px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
 }
 
 .container {
@@ -147,6 +160,100 @@ h2 {
   color: #236192;
 }
 
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+section.bg {
+  background-image: url('../images/Plumbing.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-heading {
+  color: #236192;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.section-sub-heading {
+  color: #236192;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.row-image-block {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.row-image {
+  display: block;
+  width: 64px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-row {
+  margin-top: 25px;
+}
+
+.row-header {
+  height: 39px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  color: #236192;
+  font-size: 16px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.row-header.sub-heading {
+  color: #92d11c;
+}
+
+.row-header.contact {
+  margin-bottom: 15px;
+}
+
+.description {
+  height: 160px;
+}
+
+.description-list {
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+}
+
+.column-2 {
+  border-right: 1px solid #e9e9e9;
+}
+
+.services-block {
+  height: 145px;
+}
+
+.row-sub-heading {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #92d11c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.column-1 {
+  border-right: 1px solid #e9e9e9;
+}
+
+
 @media (max-width: 991px) {
 
   .hero-list {
@@ -157,6 +264,10 @@ h2 {
   .button-block {
     padding-right: 41%;
     padding-left: 41%;
+  }
+
+  .row-sub-heading {
+    margin-top: 20px;
   }
 
 @media (max-width: 767px) {
@@ -178,6 +289,31 @@ h2 {
   .button-block {
     padding-right: 37%;
     padding-left: 37%;
+  }
+  .row-image-block {
+    margin-top: 25px;
+  }
+  .description {
+    height: auto;
+  }
+  .description.alternate {
+    height: auto;
+  }
+  .description-list {
+    text-align: center;
+  }
+  .column-2 {
+    margin-top: 10px;
+    border-right-style: none;
+  }
+  .column-3 {
+    margin-top: 10px;
+  }
+  .row-sub-heading {
+    margin-top: 15px;
+  }
+  .column-1 {
+    border-right-style: none;
   }
 
 @media (max-width: 519px) {
@@ -206,4 +342,19 @@ h2 {
   .button-block {
     padding-right: 33%;
     padding-left: 33%;
+  }
+
+  .section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .description-list {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .services-block {
+    height: 115px;
+  }
+  .services-block.boiler {
+    height: 80px;
   }
