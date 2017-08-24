@@ -34,6 +34,12 @@ h3 {
   text-align: center;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -328,6 +334,8 @@ section {
   z-index: 2;
 }
 
+
+
 label {
   font-family: Montserrat, sans-serif;
   color: #236192;
@@ -352,6 +360,93 @@ input, textarea {
 .btn:hover {
   background-color: rgba(146, 209, 28, .5);
   color: #236192;
+}
+
+.form-label {
+  font-family: Montserrat, sans-serif;
+  color: #236192;
+  font-weight: 400;
+}
+
+.text-field {
+  opacity: 0.5;
+}
+
+.radio label {
+  color: #92d11c;
+}
+
+.submit-button {
+  border: 2px solid #236192;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #236192;
+}
+
+.submit-button:hover {
+  background-color: rgba(146, 209, 28, .5);
+}
+
+.contact-block {
+  margin-top: 10px;
+  float: none;
+  height: 32px;
+}
+
+.contact-block.top {
+  margin-top: 0px;
+}
+
+.contact-image-block {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  float: left;
+}
+
+.contact-image-block img {
+  width: 32px;
+  height: 32px;
+}
+
+.contact-text {
+  width: 90%;
+  float: left;
+  font-family: Montserrat, sans-serif;
+  line-height: 32px;
+}
+
+.map-block {
+  height: 200px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+}
+
+footer {
+  position: static;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: visible;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: Montserrat, sans-serif;
+}
+
+.footer-text-block {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 991px) {

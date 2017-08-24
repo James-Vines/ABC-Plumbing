@@ -136,18 +136,15 @@
   <section class="bg" id="reviews">
     <div class="section-heading">
       <h1 class="section-heading">Reviews</h1>
-    </div>
-      
+    </div>  
     <!-- Carousel -->
     <div id="reviews-carousel" class="carousel slide carousel-fade slider" data-ride="carousel">
-      
       <!-- Indicators 
       <ol class="carousel-indicators">
         <li data-target="#reviews-carousel" data-slide-to="0" class="active"></li>
         <li data-target="#reviews-carousel" data-slide-to="1"></li>
         <li data-target="#reviews-carousel" data-slide-to="2"></li>
       </ol> -->
-
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -178,11 +175,9 @@
           </div>
         </div>
       </div>
-
       <!-- Carousel nav -->
       <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-      <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
-        
+      <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>   
     </div> 
   </section>
 
@@ -218,15 +213,83 @@
                 <div class="help-block with-errors"></div>
               </div>
               <div class="form-group">
+                <label for="form_phone">Service Required :</label>
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Repairs</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Service</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="optradio">Installation</label>
+                </div>
+              </div>
+              <div class="form-group">
                 <label for="form_message">Comment :</label>
                 <textarea id="form_message" name="message" class="form-control" placeholder="Write comment/enquiry here *" rows="2" required="required" data-error="Please,leave us a message."></textarea>
                 <div class="help-block with-errors"></div>
               </div>
               <input type="submit" class="btn  btn-send" value="Send message">
             </div>
-
+          </form>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+          <div class="row-header-block">
+            <div class="contact row-header">Contact Information</div>
+          </div>
+          <div class="contact-block top">
+            <div class="contact-image-block">
+              <img src="images/Address.png" alt="Address">
+            </div>
+            <div class="contact-text">13 Broad Street, Scunthorpe, North Lincs, DN15 1AB</div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-image-block">
+              <img src="images/Telephone.png" alt="Telephone Number">
+            </div>
+            <div class="contact-text">01724 123 456</div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-image-block">
+              <img src="images/Mobile---blue.png" alt="Mobile Number">
+            </div>
+            <div class="contact-text">07755 123 456</div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-image-block">
+              <img src="images/black-back-closed-envelope-shape.svg" alt="Email">
+            </div>
+            <div class="contact-text">enquiries@abc-plumbing.co.uk</div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-image-block">
+              <img src="images/Facebook.png" alt="Facebook">
+            </div>
+            <div class="contact-text">abc-plumbing</div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-image-block">
+              <img src="images/Twitter.png" alt="Twitter">
+            </div>
+            <div class="contact-text">@abc-plumbing</div>
+          </div>
+          <div class="map-block">
+            <iframe height="250" width="100%" frameborder="0" style="border:2"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBc4V9jagQKbzQdke6hQ_r3-kXA3KVSNEs
+              &q=Scunthorpe" allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+  <footer>
+    <div class="container">
+      <div class="footer-text-block">
+        <div class="footer-text">© ABCPlumbing 2017</div>
+      </div>
+    </div>
+  </footer>
 
   <!-- ============================= -->
   <!-- All your JavaScript comes now -->
@@ -237,10 +300,7 @@
   <!-- Bootstrap core JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-  <!-- Other JS files -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"</script>
-  <script src="contact.js"></script>
-
+  <!-- Other JS files --> 
 
 </body>
 </html>
