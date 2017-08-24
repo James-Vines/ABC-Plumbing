@@ -9,7 +9,7 @@
   <title>ABC Plumbing - Example page by James Vines</title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <!-- Custom styles for this template go here -->
   <link rel="stylesheet" href="style.css">
@@ -133,6 +133,113 @@
       </div>
     </div>
   </section>
+  <section class="bg" id="reviews">
+    <div class="section-heading">
+      <h1 class="section-heading">Reviews</h1>
+    </div>
+      
+    <!-- Carousel -->
+    <div id="reviews-carousel" class="carousel slide carousel-fade slider" data-ride="carousel">
+      
+      <!-- Indicators 
+      <ol class="carousel-indicators">
+        <li data-target="#reviews-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#reviews-carousel" data-slide-to="1"></li>
+        <li data-target="#reviews-carousel" data-slide-to="2"></li>
+      </ol> -->
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="container">
+            <div class="quote-block">
+              <div class="quote-text">IPhone tumblr viral four dollar toast scenester. Try-hard vexillologist meditation poutine cliche lumbersexual everyday carry. Wayfarers meditation art party health goth roof party unicorn microdosing iPhone yr activated charcoal fanny pack raclette fam.</div>
+              <div class="quote-name">John Smith</div>
+              <div class="quote-place">Brigg</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="quote-block">
+              <div class="quote-text">Wolf intelligentsia aesthetic narwhal lomo pug actually flexitarian hexagon beard thundercats lumbersexual celiac godard. Selfies iceland lomo microdosing banjo echo park sartorial humblebrag biodiesel roof party.</div>
+              <div class="quote-name">Nick Jones</div>
+              <div class="quote-place">Scotter</div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="container">
+            <div class="quote-block">
+              <div class="quote-text">Subway tile keytar hell of squid chambray mustache pabst. Tbh distillery enamel pin, godard drinking vinegar subway tile kinfolk meditation literally chambray 90's pabst freegan.</div>
+              <div class="quote-name">Jane Davies</div>
+              <div class="quote-place">Scunthorpe</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel nav -->
+      <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+        
+    </div> 
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h1 class="section-heading">CONTACT</h1>
+      </div>
+      <div>
+        <h2 class="section-sub-heading">We're always here when you need us</h2>
+      </div>
+      <div class="row section-row">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+          <div class="row-header-block">
+            <div class="contact row-header">Send a Message</div>
+          </div>
+          <form>
+            <div class="messages"></div>
+            <div class="controls">
+              <div class="form-group">
+                <label for="form_name">Name :</label>
+                <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name *" required="required" data-error="Your name is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="form_email">Email Address :</label>
+                <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="form_phone">Telephone :</label>
+                <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Enter your telephone number">
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="form_message">Comment :</label>
+                <textarea id="form_message" name="message" class="form-control" placeholder="Write comment/enquiry here *" rows="2" required="required" data-error="Please,leave us a message."></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+              <input type="submit" class="btn  btn-send" value="Send message">
+            </div>
+
+    </div>
+  </section>
+
+  <!-- ============================= -->
+  <!-- All your JavaScript comes now -->
+  <!-- ============================= -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Bootstrap core JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <!-- Other JS files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"</script>
+  <script src="contact.js"></script>
 
 
 </body>
