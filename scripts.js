@@ -36,11 +36,4 @@ $(document).ready(function(){
       return false;
     });
 
-  // Stellar
-  $.stellar({
-    horizontalOffset: 0,
-    verticalOffset: 10
-  });
-
-
 }); // End of $(document).ready
